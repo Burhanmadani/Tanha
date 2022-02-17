@@ -51,7 +51,7 @@ p{
 }
 .half-w img{
     width: 100%;
-    padding-top: 80px;
+    padding-top: 20px;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -62,6 +62,7 @@ p{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    padding-bottom: 0em;
 }
 .exp-item{
     width: 45%;
