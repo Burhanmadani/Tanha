@@ -7,12 +7,14 @@ h1{
     font-family: 'IM Fell English SC', serif ;
     font-size: 39px;
     font-weight: 400;
-    text-shadow: 1px 1px 3px gray;
+    color: rgba(46, 44, 44, 0.267);
+    text-shadow: 1px 1px 3px rgba(255, 0, 0, 0.171);
+    margin-left: 60px;
     
 }
 h2{
     font-size: 19px;
-    font-weight: 700;
+    font-weight: 600;
     font-family: 'Hind Siliguri', sans-serif;}
 
 h3{font-size: 20px;
@@ -30,10 +32,6 @@ p{
     font-weight: 100;
     line-height: 165%;
     text-align: justify;
-}
-.orang{
-    color: rgb(241, 7, 7);
-    text-shadow: 2px 2px 3px black;
 }
 .orange{
     color: orange;
