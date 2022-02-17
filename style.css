@@ -10,14 +10,13 @@ h1{
     text-shadow: 1px 1px 3px rgba(255, 0, 0, 0.171);
     margin-left: 50px;
     padding-top: 40px;
-    line-height: 100% ;
-    
+    line-height: 100%;   
 }
 h2{
     font-size: 19px;
     font-weight: 600;
-    font-family: 'Hind Siliguri', sans-serif;}
-
+    font-family: 'Hind Siliguri', sans-serif;
+}
 h3{font-size: 20px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
@@ -36,7 +35,7 @@ p{
 }
 .orange{
     color: orange;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px rgb(90, 86, 86);
 }
 .flex-container{
     display: flex ;
@@ -56,17 +55,15 @@ p{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    
+    margin-top: 0;
 }
 .drm-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    padding-bottom: 0em;
 }
 .exp-item{
-    width: 45%;
-    float: left;
+    width: 70%;
     margin-top: 20px ;
     margin-left: 5%;
     margin-right: 2%;
@@ -78,7 +75,6 @@ p{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
-    
 }
 #full-stack{
     border-left: 7px solid;
@@ -95,7 +91,6 @@ footer p{
     margin-top: 100px;
     font-size: 12px;
 }
-
 
 img{
     width: 100%;
