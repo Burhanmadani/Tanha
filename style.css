@@ -1,8 +1,7 @@
 body{
     margin: 0 auto;
-    width: 100%;
-    
 }
+
 h1{
     font-family: 'IM Fell English SC', serif ;
     font-size: 39px;
@@ -10,6 +9,8 @@ h1{
     color: rgba(46, 44, 44, 0.267);
     text-shadow: 1px 1px 3px rgba(255, 0, 0, 0.171);
     margin-left: 60px;
+    padding-top: 30px;
+    line-height: 100% ;
     
 }
 h2{
@@ -55,7 +56,7 @@ p{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    margin-top: 0 auto;
+    
 }
 .drm-big{
     background-image: url(images/dream-bg.png);
