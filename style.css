@@ -1,10 +1,11 @@
 body{
     margin: 0 auto;
+    width: 100%;
     
 }
 h1{
     font-family: 'IM Fell English SC', serif ;
-    font-size: 34px;
+    font-size: 39px;
     font-weight: 400;
     text-shadow: 1px 1px 3px gray;
     
@@ -40,8 +41,8 @@ p{
 }
 .flex-container{
     display: flex ;
-    padding-bottom: 70px;
-    padding-right: 7px;
+    padding-bottom: 60px;
+    padding-right: 5px;
 }
 .half-w{ 
     width: 50%;
@@ -62,12 +63,14 @@ p{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    padding-bottom: 0em;
 }
 .exp-item{
     width: 50%;
     float: left;
     margin-top: 20px ;
     margin-left: 5%;
+    margin-right: 2%;
     padding: 20px 20px 20px;
     box-shadow: 8px 10px 20px black;
     border-radius: 10px;
@@ -91,10 +94,12 @@ p{
 footer p{
     text-align: center;
     margin-top: 100px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 
 img{
     width: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
