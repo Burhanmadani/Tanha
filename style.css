@@ -9,7 +9,7 @@ h1{
     color: rgba(46, 44, 44, 0.267);
     text-shadow: 1px 1px 3px rgba(255, 0, 0, 0.171);
     margin-left: 60px;
-    padding-top: 30px;
+    padding-top: 100px;
     line-height: 100% ;
     
 }
@@ -54,7 +54,7 @@ p{
     padding-top: 100px;
 }
 .top-banner{
-    background-image: url(images/top-banner.png);
+    background-image: url(images/top.png);
     background-repeat: no-repeat;
     
 }
@@ -69,7 +69,7 @@ p{
     float: left;
     margin-top: 20px ;
     margin-left: 5%;
-    margin-right: 2%;
+    
     padding: 20px 20px 20px;
     box-shadow: 8px 10px 20px black;
     border-radius: 10px;
