@@ -1,13 +1,6 @@
 body{
     margin: 0 auto;
 }
-h1{
-    font-family: 'IM Fell English SC', serif ;
-    font-size: 54px;
-    font-weight: 900;
-    text-shadow: 2px 2px 3px gray;
-    line-height: 100% ;
-}
 h2{
     font-family: 'Noto Sans Bengali', sans-serif; 
     color: rgb(255, 0, 64);
@@ -16,23 +9,17 @@ h2{
     font-weight: 700;
 }
 
-h3{
-     text-shadow: 2px 2px 3px gray;
-    font-size: 20px;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
-}
 p{
-    color: rgb(66, 66, 66);
+    color:grey;
     font-family:'Noto Sans Bengali', sans-serif;
-    font-size: 16px ;
+    font-size: 14px ;
     font-weight: 100;
     line-height: 150%;
     text-align: justify;
 }
 .flex-container{
     display: flex ;
-    padding-right: 27px;
+    padding-right: 15px;
 }
 .half-w{ 
     width: 50%;
@@ -55,27 +42,27 @@ img{
     background-image: url(images/IMG_20220224_193236.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 25ex;
+    background-size: 20ex;
 }
 .priyo{
     margin: 8%;
     background-image: url(images/heart-2055203.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 50ex;
+    background-size: 35ex;
     
    
 }
 .exp-item p{
     font-family: 'Poppins', sans-serif;
-    font-weight: 300;
+    font-weight: 100;
 }
 .exp-item{
     width: 50%;
     margin-top: 20px ;
     margin-left: 5%;
-    padding: 20px 20px 20px;
-    box-shadow: 8px 10px 20px black;
+    padding: 29px 20px 20px;
+    box-shadow: 8px 8px 20px rgb(46, 42, 42);
     border-radius: 10px;
 }
 .exp-area{
@@ -94,7 +81,15 @@ img{
     border-image: linear-gradient(180deg, rgb(114, 239, 248), rgb(255, 255, 255));
     border-image-slice: 1;
 }
-
+.fire{
+    background-image: url(images/kindpng_711536.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 15em;
+    font-family: Poppins;
+    font-size: 13px; 
+    text-align: center;
+}
 footer p{
     text-align: center;
     margin-top: 100px;
