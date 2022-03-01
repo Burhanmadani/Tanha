@@ -1,99 +1,106 @@
 body{
     margin: 0 auto;
 }
-
 h1{
     font-family: 'IM Fell English SC', serif ;
-    font-size: 39px;
-    font-weight: 400;
-    color: rgba(46, 44, 44, 0.267);
-    text-shadow: 1px 1px 3px rgba(255, 0, 0, 0.171);
-    margin-left: 50px;
-    padding-top: 40px;
-    line-height: 100%;   
+    font-size: 54px;
+    font-weight: 900;
+    text-shadow: 2px 2px 3px gray;
+    line-height: 100% ;
 }
 h2{
-    font-size: 19px;
-    font-weight: 600;
-    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Noto Sans Bengali', sans-serif; 
+    color: rgb(255, 0, 64);
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 700;
 }
-h3{font-size: 20px;
+
+h3{
+     text-shadow: 2px 2px 3px gray;
+    font-size: 20px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
 }
-h5{
-    font-family: 'Noto Sans Bengali', sans-serif; 
-    font-size: 15px;
-}
 p{
-    color: rgba(66, 63, 63, 0.849);
-    font-family: 'Noto Sans Bengali', sans-serif;
-    font-size: 15px ;
+    color: rgb(66, 66, 66);
+    font-family:'Noto Sans Bengali', sans-serif;
+    font-size: 16px ;
     font-weight: 100;
-    line-height: 165%;
+    line-height: 150%;
     text-align: justify;
-}
-.orange{
-    color: orange;
-    text-shadow: 1px 1px 2px rgb(90, 86, 86);
 }
 .flex-container{
     display: flex ;
-    padding-bottom: 60px;
-    padding-right: 5px;
+    padding-right: 27px;
 }
 .half-w{ 
     width: 50%;
-    padding: 2%;
-    padding-bottom: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
     margin-left: 4% ;
 }
 .half-w img{
     width: 100%;
-    padding-top: 20px;
+    padding-top: 40px;
+}
+img{
+    width: 100%;
 }
 .top-banner{
-    background-image: url(images/top-banner.png);
+    background-image: url(images/IMG_20220224_200917.png);
     background-repeat: no-repeat;
-    margin-top: 0;
 }
 .drm-big{
-    background-image: url(images/dream-bg.png);
+    background-image: url(images/IMG_20220224_193236.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-size: 25ex;
+}
+.priyo{
+    margin: 8%;
+    background-image: url(images/heart-2055203.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50ex;
+    
+   
+}
+.exp-item p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
 }
 .exp-item{
-    width: 70%;
+    width: 50%;
     margin-top: 20px ;
     margin-left: 5%;
-    margin-right: 2%;
     padding: 20px 20px 20px;
     box-shadow: 8px 10px 20px black;
     border-radius: 10px;
 }
 .exp-area{
-    background-image: url(images/exp-bg.png);
+    background-image: url(images/980x725.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
+    background-size: 40em;
 }
 #full-stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-right: 7px solid;
+    border-image: linear-gradient(180deg, white ,rgb(122, 239, 255));
     border-image-slice: 1;
 }
 #baby-web{
     border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue, cyan);
+    border-image: linear-gradient(180deg, rgb(114, 239, 248), rgb(255, 255, 255));
     border-image-slice: 1;
 }
+
 footer p{
     text-align: center;
     margin-top: 100px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
-img{
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
+
+
+
